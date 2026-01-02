@@ -33,14 +33,6 @@ int main(int argc, char **argv)
         return 1;
     }
 
-    // printf("Value of argv is %p \n", (void *)argv);
-    // printf("Address of argv is %p \n", (void *)&argv);
-    // char *end;
-    // double a = strtod(*(argv + 1), &end);
-    // printf("%f", a);
-    // double b = strtod(*(argv + 2), &end);
-    // double c = strtod(*(argv + 3), &end);
-
     double a, b, c;
 
     if (getDouble(*(argv + 1), &a) == 0)
